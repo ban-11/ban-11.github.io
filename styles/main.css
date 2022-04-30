@@ -3227,3 +3227,27 @@ a {
     margin-bottom: 10px;
   }
 }
+
+      .sitename {
+        color: #66d9e8;
+      }
+    
+        .menubutton {
+          color: #66d9e8;
+        }
+
+        .menucontainer span::before,
+        .menucontainer span::after {
+          color:#66d9e8;
+          content: attr(data-text);
+          position: absolute;
+          top: -0.5em;
+          left: 0;
+          width: 100%;
+          transition: 0.3s ease-out;
+        }
+
+        .menubutton:visited{
+          color: #66d9e8;
+        }
+      
